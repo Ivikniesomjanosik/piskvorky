@@ -3,16 +3,14 @@ body{
   background: linear-gradient(#615dad, #ffc8da);
   display: flex;
   align-items: center;
-  justify-content: center;
-
-  
-  
+  justify-content: center; 
 }
 
 .piskvorky {
   width: 20vw;
   height: auto;
   color:   #ffffff;
+ 
 }
 
 /*jednotky vh a vw sú responzívne*/
@@ -30,25 +28,17 @@ body{
   width: 100%;
 }
 
-.piskvorky__button{
-  display: block;
-  width: 100%;
-  height: 5vh;
-  
-}
-
 .piskvorky__title, 
 .piskvorky__introduction{
   text-align: center;
   
-  
- 
 }
 
 .piskvorky__introduction{
   font-size: 1.1rem;
   padding: 0 1.5rem;
   font-family:  "Segoe UI", sans-serif;
+  margin-bottom: 2rem;
 }
 
 .piskvorky__title{
@@ -56,12 +46,40 @@ body{
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style : normal;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 
   font-family: "Lobster", sans-serif;
   font-weight: 400;
-  font-style: normal;
- 
- 
+  font-style: normal; 
+}
+
+
+.piskvorky__link{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #ffffff
   
 }
 
+.piskvorky__button{
+  width: 100%;
+  height: 5vh;
+  border-radius: 0;
+  border: none;
+  background-color: #1fcca4 ;
+   
+}
+
+.piskvorky__button--blue{
+  background-color: #0197f6;
+  border-top: 0.5px solid black;
+}
+
+.piskvorky__button:hover{
+  background-color: #1cbb96 ;
+}
+
+.piskvorky__button--blue:hover{
+  background-color: #0090e9;
+} 
