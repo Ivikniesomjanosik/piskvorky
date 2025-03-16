@@ -1,0 +1,26 @@
+body{
+  height: 100vh;
+  background: linear-gradient(#615dad, #ffc8da);
+  
+  
+}
+
+.piskvorky {
+  width: 25vw;
+  height: auto;
+  border-radius: 20px 0;
+  
+
+}
+
+/*jednotky vh a vw sú responzívne*/
+
+.piskvorky__picture{
+  width: 100%;
+}
+
+.piskvorky__table{
+  background-color: #283e50;
+}
+
+
