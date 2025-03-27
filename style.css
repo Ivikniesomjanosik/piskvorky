@@ -1,5 +1,5 @@
 body{
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(#615dad, #ffc8da);
   display: flex;
   align-items: center;
@@ -7,7 +7,8 @@ body{
 }
 
 .piskvorky {
-  width: 20vw;
+  width: 90vw;
+  max-width: 400px;
   height: auto;
   color:   #ffffff;
  
