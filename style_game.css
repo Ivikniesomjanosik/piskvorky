@@ -1,0 +1,77 @@
+.piskvorky__game{
+  max-width: 80vmin;
+  color: white;
+  
+}
+
+.piskvorky__play{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.piskvorky__control{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  
+}
+
+.piskvorky__player{
+  display: flex;
+  
+}
+
+.piskvorky__circle{
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+.piskvorky__home{
+  background-color: #1fcca4;
+  text-align: center;
+  display: inline-flex;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.piskvorky__restart{
+  background-color: #0197f6;
+  text-align: center;
+  display: inline-flex;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+
+.piskvorky__home:hover{
+  background-color: #1cbb96 ;
+}
+
+.piskvorky__restart:hover{
+  background-color: #0090e9;
+}
+
+.field{
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  gap: 0;
+}
+
+.field button{
+padding: 0;
+width: 100%;
+aspect-ratio: 1 / 1;
+margin:0;
+border: 0.1rem solid #2e2e2e;
+background-color: #dddddd;
+
+}
+
+.field button:focus,
+.field button:hover{
+  background-color: white;
+
+}
+
