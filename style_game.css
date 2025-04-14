@@ -1,13 +1,19 @@
 .piskvorky__game{
   max-width: 80vmin;
   color: white;
-  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
 }
+
+
 
 .piskvorky__play{
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1rem;
+  
 }
 
 .piskvorky__control{
