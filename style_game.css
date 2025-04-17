@@ -81,3 +81,33 @@ background-color: #dddddd;
 
 }
 
+@keyframes pop {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.board__field--circle {
+  background-image: url('images/circle-black.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  animation: pop 0.15s;
+}
+
+.board__field--cross {
+  background-image: url('images/cross-black.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  animation: pop 0.15s;
+}
+
+
+
+
